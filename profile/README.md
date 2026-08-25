@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/klaroworks/.github/main/profile/images/banner.png" alt="Klaro — AI가 노동을 대신합니다. 결과는 사람이 검증하고 승인합니다." width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/klaroworks/.github/main/profile/images/banner-dark.png">
+    <img src="https://raw.githubusercontent.com/klaroworks/.github/main/profile/images/banner-light.png" alt="Klaro — AI가 노동을 대신합니다. 결과는 사람이 검증하고 승인합니다." width="100%">
+  </picture>
 </div>
 
 <p align="center">

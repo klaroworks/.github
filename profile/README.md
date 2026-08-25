@@ -16,11 +16,17 @@
 
 기관에서 AI를 쓰기 어려운 진짜 이유는 성능이 아니라 책임입니다. 자료가 시스템과 개인 폴더에 흩어져 있고, AI는 조직의 기준과 과거 판단을 모른 채 답하며, 담당자는 초안의 수치를 원문과 다시 대조해야 합니다. 우리는 AI를 도구 하나로 더 얹는 대신, 기관이 이미 가진 자료와 검토 과정을 하나의 업무 흐름으로 잇습니다.
 
-두 제품이 같은 원칙 위에 있습니다 — **근거 · 승인 · 감사**.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/klaroworks/.github/main/profile/images/trust-stack.png" alt="근거 · 승인 · 감사 — 하나의 신뢰 스택" width="92%">
+</div>
 
 ## Klaro Hub — 지식노동 자동화
 
 문서·DB·API를 권한 범위 안에서 연결하고, 질문이 오면 원문을 인용·조회해 근거를 먼저 모은 뒤 초안을 만듭니다. 검색은 키워드와 벡터를 함께 쓰고, 찾은 근거를 다시 순위 매겨 수치를 확인합니다. 근거가 모자라면 답을 지어내지 않고 안내로 넘어갑니다(교정형 RAG). 공공 문서의 사실상 표준인 한글(HWPX)로 바로 출력하고, 검토·승인 흐름은 MCP Elicitation 표준 위에 올렸습니다. 모델은 vLLM·Ollama에 LoRA를 얹어 자체 서빙하므로, 데이터를 밖으로 내보내지 않고 폐쇄망에서 단독으로 돌 수 있습니다.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/klaroworks/.github/main/profile/images/hub-pipeline.png" alt="Klaro Hub 파이프라인: 연결 → 근거 → 초안 → 검토·승인 → 감사" width="100%">
+</div>
 
 **쓰는 곳** — 규정·회계 질의응답, 공문·보고서 작성, 기관 지식 검색·상담, 기업 심층분석과 공급망 리스크 모니터링.
 
@@ -30,15 +36,11 @@
 
 레거시 시스템 전환을 에이전트가 수행하되, 코드를 반영하기 전에 근거를 만듭니다. 컴파일과 정적 점검, SQL Diff, 기준 입출력 비교를 붙여 "컴파일만 통과"로 끝내지 않습니다. TA·AA·QA·PM의 승인 이력이 산출물과 함께 남고, 소스는 고객 환경 밖으로 나가지 않습니다. 검증 환경으로 C·ECPG 기간계 레거시 2,000본이 넘는 전환 픽스처를 직접 만들어 씁니다.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/klaroworks/.github/main/profile/images/forge-pipeline.png" alt="Klaro Forge 파이프라인: 분석 → 전환 → Evidence → Approval → 납품" width="100%">
+</div>
+
 **현장** — 대형 카드사 EOS 대응 재구축(SI 원청 협업).
-
-## 근거 · 승인 · 감사
-
-| | |
-|---|---|
-| **근거** | 모든 산출물에 출처가 붙습니다. 원문 인용부터 SQL Diff까지. |
-| **승인** | 담당자의 검토·승인이 워크플로에 들어 있습니다(MCP Elicitation). |
-| **감사** | 모델·근거·승인·버전이 기록됩니다. RBAC·PII 마스킹·온프레미스. |
 
 ## 팀
 

@@ -1,0 +1,31 @@
+name: 🐛 버그 리포트 (Bug report)
+description: 재현 가능한 문제를 알려주세요
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 무슨 일이 있었나요?
+      description: 기대한 동작과 실제 동작을 설명해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 재현 절차
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 버전 / 환경
+      placeholder: "예: v0.3.0, OS, 런타임"
+  - type: textarea
+    id: logs
+    attributes:
+      label: 로그 / 스크린샷
+      render: shell

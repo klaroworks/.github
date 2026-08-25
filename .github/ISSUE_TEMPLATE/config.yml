@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🌐 제품·도입 문의
+    url: https://klaroworks.ai
+    about: 제품 도입·협업 문의는 웹사이트를 이용해 주세요.
+  - name: 📧 일반 문의
+    url: mailto:contact@klaroworks.ai
+    about: 이슈에 맞지 않는 문의는 이메일로 보내주세요.

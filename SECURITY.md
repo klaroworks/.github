@@ -6,7 +6,7 @@ Klaro는 공공·금융 등 규제 산업을 위한 소버린 AI를 만듭니다
 
 취약점을 발견하시면 **공개 이슈로 올리지 마시고**, 아래로 비공개 제보해 주세요:
 
-- 📧 **security@klaroworks.ai** (또는 contact@klaroworks.ai)
+- 📧 **contact@klaroworks.ai** (또는 contact@klaroworks.ai)
 - 가능하면 재현 절차·영향 범위·PoC를 포함해 주세요.
 
 접수 후 **3영업일 이내** 회신하며, 검증·수정·공개 일정을 함께 협의합니다. 책임 있는 제보에 감사드립니다.

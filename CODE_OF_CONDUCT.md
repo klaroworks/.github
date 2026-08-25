@@ -17,7 +17,7 @@ We pledge to make participation in our community a harassment-free experience fo
 
 커뮤니티 리더는 기준을 위반하는 행동에 대해 명확화·경고·일시적/영구적 차단 등 적절한 조치를 취할 책임과 권한을 가집니다.
 
-위반 사례는 **conduct@klaroworks.ai** 로 신고할 수 있으며, 모든 신고는 신속하고 공정하게 검토됩니다. 신고자의 신원과 사생활은 보호됩니다.
+위반 사례는 **contact@klaroworks.ai** 로 신고할 수 있으며, 모든 신고는 신속하고 공정하게 검토됩니다. 신고자의 신원과 사생활은 보호됩니다.
 
 ## 귀속 (Attribution)
 

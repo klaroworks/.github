@@ -10,7 +10,7 @@
   &nbsp;·&nbsp;
   <a href="mailto:contact@klaroworks.ai">Contact</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/klaroworks/handbook">Handbook</a>
+  <a href="https://github.com/klaroworks/field-guide">Field Guide</a>
 </p>
 
 <br/>
@@ -57,7 +57,7 @@
 
 이시헌(CEO)은 금융·공공 AI 프로젝트를 이끌고 제품을 기획합니다. 최형우(CTO)는 플랫폼·인프라·AI 엔지니어링을 맡습니다. 2026년 서울에서 시작했습니다.
 
-우리가 일하는 방식은 [handbook](https://github.com/klaroworks/handbook)에 적어 둡니다.
+우리가 일하는 방식은 [필드 가이드](https://github.com/klaroworks/field-guide)에 적어 둡니다.
 
 <div align="center">
 <sub>Seoul, Korea · 주식회사 클라로 · <a href="mailto:contact@klaroworks.ai">contact@klaroworks.ai</a></sub>

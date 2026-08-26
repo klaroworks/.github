@@ -8,8 +8,6 @@
 <p align="center">
   <a href="https://klaroworks.ai">Website</a>
   &nbsp;·&nbsp;
-  <a href="mailto:contact@klaroworks.ai">Contact</a>
-  &nbsp;·&nbsp;
   <a href="https://github.com/klaroworks/field-guide">Field Guide</a>
 </p>
 
